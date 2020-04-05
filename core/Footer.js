@@ -127,6 +127,11 @@ class Footer extends React.Component {
           />
         </a> */}
         <section className='copyright'>{this.props.config.copyright}</section>
+        <section className='author'>
+          <a href='https://migao.io' target='_blank'>
+            @Migao
+          </a>
+        </section>
       </footer>
     );
   }

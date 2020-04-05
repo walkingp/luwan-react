@@ -21,6 +21,10 @@ const users = [
 ];
 
 const siteConfig = {
+  // We need to keep the docs folder in the same folder
+  // as the package.json file for now
+  customDocsPath: path.basename(__dirname) + '/docs',
+
   title: '卢湾跑团', // Title for your website.
   tagline: '风里雨里，卢湾等你',
   url: 'https://luwan.club', // Your website URL
@@ -83,7 +87,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  // scripts: ['https://buttons.github.io/buttons.js'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

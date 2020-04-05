@@ -22,6 +22,15 @@
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
+@media only screen and (max-width: 735px) {
+  .imageAlignSide .blockImage {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+    max-width: none;
+    flex: none;
+  }
+}
 
 @media only screen and (min-width: 1024px) {
 }

@@ -49,6 +49,12 @@ class Footer extends React.Component {
           <div>
             <h5>社交网络</h5>
             <a
+              href='https://www.strava.com/clubs/LuwanRunClub'
+              target='_blank'
+              rel='noreferrer noopener'>
+              STRAVA
+            </a>
+            <a
               href='https://weibo.com/luwanrunclub'
               target='_blank'
               rel='noreferrer noopener'>

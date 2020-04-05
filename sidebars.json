@@ -1,8 +1,8 @@
 {
   "docs": {
-    "卢湾跑团": ["training", "about", "faq"]
+    "卢湾跑团": ["training", "faq"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "卢湾跑团": ["about", "feed"]
   }
 }

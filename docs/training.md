@@ -1,7 +1,7 @@
 ---
 id: training
 title: 训练常见问题
-sidebar_label: 训练问题
+sidebar_label: 关于训练
 ---
 
 ---

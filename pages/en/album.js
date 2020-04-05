@@ -8,7 +8,6 @@
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
-
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
@@ -22,57 +21,55 @@ function Help(props) {
   const weappDomain = `https://6875-huate-8d8352-1258591418.tcb.qcloud.la/web/`;
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
+      content: `Liam、Edgar和Andy`,
       image: `${weappDomain}微信图片_20191115081953.jpg`,
     },
     {
-      content: 'Ask questions about the documentation and project',
+      content: '2016年卢湾跑团卢湾体育中心合练',
       image: `${weappDomain}微信图片_20191115082006.jpg`,
     },
     {
-      content: "Find out what's new with this project",
+      content: '2016年卢湾跑团源深体育中心合练',
       image: `${weappDomain}微信图片_20191115082012.jpg`,
     },
     {
-      content: '',
+      content: '2017年卢湾跑团源深体育中心合练',
       image: `${weappDomain}微信图片_20191115082015.jpg`,
     },
     {
-      content: '',
+      content: '2017年暴雨中',
       image: `${weappDomain}微信图片_20191115082018.jpg`,
     },
     {
-      content: '',
+      content: '春节',
       image: `${weappDomain}微信图片_20191115082022.jpg`,
     },
     {
-      content: '',
+      content: '源深体育中心',
       image: `${weappDomain}微信图片_20191115082031.jpg`,
     },
     {
-      content: '',
+      content: '兄弟',
       image: `${weappDomain}微信图片_20191115082035.jpg`,
     },
     {
-      content: '',
+      content: 'o(∩_∩)o',
       image: `${weappDomain}微信图片_20191115082040.jpg`,
     },
     {
-      content: '',
+      content: '夏天',
       image: `${weappDomain}微信图片_20191115082044.jpg`,
     },
     {
-      content: '',
+      content: '暴雨',
       image: `${weappDomain}微信图片_20191115082047.jpg`,
     },
     {
-      content: '',
+      content: '接力',
       image: `${weappDomain}微信图片_20191115082100.jpg`,
     },
     {
-      content: '',
+      content: '休息',
       image: `${weappDomain}微信图片_20191115082103.jpg`,
     },
   ];

@@ -6,18 +6,17 @@
  */
 
 /* your custom css */
-
+.homeContainer {
+  background: #ffe788;
+}
+.homeContainer .homeWrapper {
+  padding: 4em 10px;
+}
 .imageAlignTop .blockImage {
   max-width: 120px;
 }
 .postHeader h1 {
   margin-top: 0;
-}
-.projectTitle {
-  text-align: left;
-}
-.promoSection .promoRow .pluginRowBlock {
-  justify-content: start;
 }
 .author {
   text-align: center;
@@ -43,7 +42,28 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 736px) {
+  .projectTitle {
+    text-align: left;
+  }
+  .promoSection .promoRow .pluginRowBlock {
+    justify-content: start;
+  }
+  .homeContainer .homeWrapper .projectLogo {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    left: 0;
+    padding: 2em 100px 4em;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .homeContainer .homeWrapper .projectLogo img {
+    height: 100%;
+    max-height: 250px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {

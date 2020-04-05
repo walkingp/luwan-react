@@ -42,12 +42,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { page: 'index', label: '首页' },
-    { blog: true, label: '博客' },
-    { doc: 'training', label: '训练' },
-    { page: 'album', label: '相册' },
-    { doc: 'about', label: '关于' },
-    { languages: true },
+    { href: '/', label: 'Home' },
+    { blog: true, label: 'Blog' },
+    { doc: 'training', label: 'Training' },
+    { page: 'album', label: 'Album' },
+    { doc: 'about', label: 'About' },
+    // { languages: true },
   ],
 
   // If you have users set above, you add it here:

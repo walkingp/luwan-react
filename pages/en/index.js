@@ -202,7 +202,10 @@ class Index extends React.Component {
     };
 
     return (
-      <div>
+      <section>
+        <div style={{ display: 'none' }}>
+          <img width='0' src={`${baseUrl}img/luwan-logo.jpg`} alt='卢湾跑团' />
+        </div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className='mainContainer'>
           <Features />
@@ -212,7 +215,7 @@ class Index extends React.Component {
           <Description />
           <Showcase /> */}
         </div>
-      </div>
+      </section>
     );
   }
 }

@@ -32,6 +32,9 @@
 .fixedHeaderContainer {
   background: #ffe53b;
 }
+.navigationSlider .slidingNav ul {
+  background: #ffe53b;
+}
 .navigationSlider .slidingNav ul li a,
 .fixedHeaderContainer a {
   color: #20232a;
@@ -46,6 +49,24 @@
     width: 100%;
     max-width: none;
     flex: none;
+  }
+
+  .navigationSlider .slidingNav ul li a,
+  .fixedHeaderContainer a {
+    color: #20232a;
+  }
+  .headerTitleWithLogo {
+    display: block !important;
+    color: #20232a;
+  }
+  .navigationSlider .slidingNav ul li > a:focus,
+  .navigationSlider .slidingNav ul li > a:hover,
+  .navigationSlider .slidingNav ul li.siteNavItemActive > a,
+  .navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+    background-color: transparent;
+    color: #20232a;
+    font-weight: bold;
+    text-decoration: underline;
   }
 }
 

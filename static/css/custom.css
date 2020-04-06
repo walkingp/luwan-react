@@ -29,6 +29,13 @@
 .author a:hover {
   color: rgba(255, 255, 255, 0.6);
 }
+.fixedHeaderContainer {
+  background: #ffe53b;
+}
+.navigationSlider .slidingNav ul li a,
+.fixedHeaderContainer a {
+  color: #20232a;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }

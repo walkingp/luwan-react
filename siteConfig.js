@@ -42,11 +42,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { href: '/', label: 'Home' },
-    { blog: true, label: 'Blog' },
-    { doc: 'training', label: 'Training' },
-    { page: 'album', label: 'Album' },
-    { doc: 'about', label: 'About' },
+    { href: '/', label: '首页' },
+    { blog: true, label: '博客' },
+    { doc: 'training', label: '训练' },
+    { page: 'album', label: '相册' },
+    { doc: 'about', label: '关于' },
     // { languages: true },
   ],
 
@@ -54,7 +54,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo_white.png',
+  headerIcon: 'img/luwan_notext.png',
   footerIcon: 'img/logo_white_s.png',
   favicon: 'img/favicon.ico',
 

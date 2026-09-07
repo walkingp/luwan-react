@@ -2,6 +2,14 @@
   "cleanUrls": false,
   "routes": [
     {
+      "src": "/verification.html",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "status": 200,
+      "continue": false
+    },
+    {
       "handle": "filesystem"
     },
     {
